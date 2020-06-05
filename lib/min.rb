@@ -9,9 +9,8 @@ require 'pry'
  }
 
 def get_the_min(groceries)
-  binding.pry
-  groceries.min
+ 
+  groceries.values.flatten.min
   
 end
 
-get_the_min(groceries)
